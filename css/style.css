@@ -1,0 +1,69 @@
+.carousel-item {
+    height: 60vh;
+    min-height: 500px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+@media (min-width: 768px) {
+    .carousel-item {
+        height: 70vh;
+        min-height: 350px;
+        background: no-repeat center center scroll;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+
+.carousel-item{
+    width: 100%; /*width you want*/
+    height: 500px; /*height you want*/
+    overflow: hidden;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hoverable {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: all 0.55s ease-in-out;
+    transition: all 0.55s ease-in-out
+  }
+  
+  .hoverable:hover {
+    -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-transition: all 0.55s ease-in-out;
+    transition: all 0.55s ease-in-out
+  }
+  
+  .btn.btn-flat {
+    font-weight: 500;
+    color: inherit;
+    background-color: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none
+  }
+  
+  .btn.btn-flat:not([disabled]):not(.disabled):active {
+    -webkit-box-shadow: none;
+    box-shadow: none
+  }
+  
+  .view:hover {
+    -webkit-filter: brightness(140%);
+    transition: all .4s ease-in-out;
+  }
+  
+  .view {
+    transition: all .4s ease-in-out;
+  }
+  
