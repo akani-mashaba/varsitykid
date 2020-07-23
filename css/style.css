@@ -1,3 +1,25 @@
+hr.onblack {
+  border: 1px solid white;
+}
+.page-footer{
+  background-color: black;
+  color: white;
+}
+
+body{
+  font-size: 12px;
+}
+
+.headers{
+  text-align: left;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.card > .card-body > .btn{
+  float: right;
+}
+
 .carousel-item {
     height: 60vh;
     min-height: 500px;
@@ -6,7 +28,7 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-  }
+}
 
 @media (min-width: 768px) {
     .carousel-item {
@@ -34,15 +56,15 @@
 .hoverable {
     -webkit-box-shadow: none;
     box-shadow: none;
-    -webkit-transition: all 0.55s ease-in-out;
-    transition: all 0.55s ease-in-out
+    -webkit-transition: all 0.20s ease-in-out;
+    transition: all 0.20s ease-in-out
   }
   
   .hoverable:hover {
     -webkit-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-transition: all 0.55s ease-in-out;
-    transition: all 0.55s ease-in-out
+    -webkit-transition: all 0.20s ease-in-out;
+    transition: all 0.20s ease-in-out
   }
   
   .btn.btn-flat {
@@ -66,4 +88,5 @@
   .view {
     transition: all .4s ease-in-out;
   }
+  
   
